@@ -8,19 +8,14 @@ body {
 }
 
 .post-header {
-    width: 80%;
     display: flex;
     justify-content: space-between;
     font-size: 30px;
     align-items: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 5%;
+    padding: 3% 5% 3% 5%
 }
 
-img {
-    width: 100%;
-}
+
 
 .post {
     margin: 10%;
@@ -43,15 +38,21 @@ i {
 
 .post-body {
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.post-icons {
-    margin-top: 5%;
-    display: flex;
-    justify-content: flex-end;
+.post-description {
+    padding: 3%;
 }
+
+ p {  
+    text-align: justify;
+}
+  
 
 .icon-header {
     display: flex;
     align-items: center;
 }
+
